@@ -30,7 +30,7 @@ api_id = os.environ.get("ID", "22931292")
 
 
 # bot
-app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token, inmemory=True)
+app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token, in_memory=True)
 os.system("chmod 777 c41lab.py negfix8 tgsconverter")
 MESGS = {}
 
