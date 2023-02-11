@@ -2,6 +2,7 @@ import pyrogram
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram import enums
+from pyrogram import idel
 from pyrogram.types import InlineKeyboardMarkup,InlineKeyboardButton
 
 import os
@@ -29,7 +30,7 @@ api_id = os.environ.get("ID", "22931292")
 
 
 # bot
-app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
+app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token,inmemory=TRUE)
 os.system("chmod 777 c41lab.py negfix8 tgsconverter")
 MESGS = {}
 
