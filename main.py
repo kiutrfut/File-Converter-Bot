@@ -2,7 +2,7 @@ import pyrogram
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram import enums
-from pyrogram import idel
+from pyrogram import idle
 from pyrogram.types import InlineKeyboardMarkup,InlineKeyboardButton
 
 import os
